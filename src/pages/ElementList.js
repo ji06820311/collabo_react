@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap";
 import { API_BASE_URL } from "../config/config";
 
 function App() {
-    const [elementList, setElementList] = useState([]); 
+    const [elementList, setElementList] = useState([]);
 
     useEffect(() => {
         const url = `${API_BASE_URL}/element/list`;
