@@ -13,6 +13,9 @@ function App() {
             <NavDropdown title={`기본 연습`}>
                 <NavDropdown.Item onClick={() => navigate(`/fruit`)}>과일 1개</NavDropdown.Item>
                 <NavDropdown.Item onClick={() => navigate(`/fruit/list`)}>과일 목록</NavDropdown.Item>
+
+                <NavDropdown.Item onClick={() => navigate(`/element`)}>빵 1개</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => navigate(`/element/list`)}>빵 목록</NavDropdown.Item>
             </NavDropdown>
         </>
     );
